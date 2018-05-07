@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import TimelineItem from './timeline-item.js';
+import { movies } from './movies.js';
 
 class Timeline extends Component {
-
-    constructor() {
-        super();
-    }
-
-render() {
+    render() {
         return (
             <div>
-                
+                {movies.map((movie, index) => {
+                    return(
+                        <TimelineItem movie={movie} key={index} />
+                    );
+                })}
             </div>
         );
     }

@@ -1,0 +1,13 @@
+.tl-item {
+    margin: 24px 0;
+}
+
+.tl-item .title {
+    margin: 0;
+}
+
+.tl-item .type {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
